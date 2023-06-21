@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <stddef.h>
 
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 
 #include "util.h"
 

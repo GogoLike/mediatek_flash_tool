@@ -5,7 +5,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 
 #define MTK_DEVICE_PKTSIZE (512)
 

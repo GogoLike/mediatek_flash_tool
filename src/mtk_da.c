@@ -5,7 +5,7 @@
 #include <sys/mman.h>
 #include <unistd.h>
 
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 
 #include "util.h"
 

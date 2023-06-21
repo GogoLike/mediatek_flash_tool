@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 
 #include "args.h"
 #include "io_handler.h"
