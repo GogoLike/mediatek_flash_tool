@@ -47,3 +47,29 @@ flash_tool -d MTK_AllInOne_DA.bin -a 0x1d80000 -l 0x1000000 -D boot.bak
 ./patch.sh boot.bak boot.img
 flash_tool -2 -R -a 0x1d80000 -l 0x1000000 -F boot.img
 ```
+## Build
+
+Clone repo:
+```
+git clone https://github.com/GogoLike/mediatek_flash_tool.git
+```
+
+Move to source dir:
+```
+cd mediatek_flash_tool
+```
+
+Make build directory and move in:
+```
+mkdir build && cd build
+```
+
+Run cmake:
+```
+cmake ..
+```
+
+Build:
+```
+cmake --build .
+```
